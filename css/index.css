@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#bigBg{
+    width: 343px;
+    height: 488px;
+    background: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.headTitle{
+    width: 236px;
+    height: 77px;
+    position: absolute;
+    background-image: url("../img/head.jpg");
+    left: 50px;
+    top: 100px;
+}
+.headTitle .bird{
+    float: right;
+    margin-top: 25px;
+}
+.start{
+    width: 85px;
+    height: 29px;
+    position: absolute;
+    background-image: url("../img/start.jpg");
+    left: 129px;
+    top: 250px;
+    cursor: pointer;
+}
+.grassland1{
+    width: 343px;
+    height: 14px;
+    background-image: url("../img/banner.jpg");
+    position: absolute;
+    margin-top: 423px;
+}
+.grassland2{
+    width: 343px;
+    height: 14px;
+    background-image: url("../img/banner.jpg");
+    position: absolute;
+    margin-top: 423px;
+    left: 343px;
+}
+.birdStyle{
+    width:40px;
+	height:28px;
+    background: url("../img/bird0.png") no-repeat;
+	position: absolute;
+	left: 50px;
+	top: 200px;
+	z-index: 1;
+}
+.block{
+    
+}
+.upDiv1{
+    width: 62px;
+
+    background: url("../img/up_mod.png");
+}
+.upDiv2{
+    background: url("../img/up_pipe.png");
+}
+.gameover{
+    position: absolute;
+    top: 100px;
+    text-align: center;
+    z-index: 1;
+    display: none;
+}
+#ok{
+    cursor: pointer;
+}
